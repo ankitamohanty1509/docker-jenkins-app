@@ -10,11 +10,11 @@ DOCKER_TAG = "latest"
 
 DOCKER_REPO = "ankitamohanty1509/app-image"
 
-DOCKER_CREDENTIALS_ID =""
+DOCKER_CREDENTIALS_ID ="dckr_pat_aBpJsoKuLYcciB1yXqFdUHRx41s"
 
-CONTAINER_NAME = "local-container"
+CONTAINER_NAME = "container1"
 
-CONTAINER_NAME1 = "server-container"
+CONTAINER_NAME1 = "container2"
 
 }
 
@@ -24,7 +24,7 @@ stage('Clone Repository') {
 
 steps {
 
-git 'https://github.com/default-user/repo.git'
+git 'https://github.com/ankitamohanty1509/docker-jenkins-app.git'
 
 }
 
